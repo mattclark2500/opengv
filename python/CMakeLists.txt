@@ -1,5 +1,5 @@
 
-find_package(Boost COMPONENTS python REQUIRED)
+find_package(Boost COMPONENTS python numpy REQUIRED)
 include_directories(${Boost_INCLUDE_DIRS})
 
 set(Python_ADDITIONAL_VERSIONS "2.7")
